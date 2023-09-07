@@ -217,6 +217,7 @@ body{
     border-radius: 20px;
     background: #e8e8e8;
     transition: 0.4s;
+    margin-top: 25px;
 
     & .card-image{
         display: flex;
@@ -241,6 +242,7 @@ body{
             & li{
                 padding: 25px 5px;
                 font-size: 3rem;
+
             }
         }
     }
