@@ -14,35 +14,54 @@
     <!--Import Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <body>
+    
+    <!-- Header Section -->
+    <header class="header__container">
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="">
+        </div>
+        <i class="fi fi-rr-apps" id="menu_btn"></i>
+        <nav class="menu inactive" id="rps_menu">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca De</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#store">Tienda</a></li>
+                <li><a href="#contact">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!--Main Container-->
-    <div class="container"> 
-        <!-- Header Section -->
-        <header class="header">
-            <div class="container__header">
-                <div class="logo">
-                    <img src="/assets/images/logo.png" alt="">
-                </div>
-                <i class='bx bx-menu-alt-left' id="menu_btn"></i>
-                <div class="menu inactive">
-                    <nav>
-                        <ul>
-                            <li><a href="#home">Inicio</a></li>
-                            <li><a href="#about">Acerca De</a></li>
-                            <li><a href="#products">Productos</a></li>
-                            <li><a href="#store">Tienda</a></li>
-                            <li><a href="#contact">Contactos</a></li>
-                        </ul>
-                    </nav>
+    <main class="container">
+        <section class="cover" id="home">
+            <div class="text_info__cover">
+                <h1 class="title_home">Bievenidos a la experiencia
+                    <span class="title">Foodzy</span>
+                </h1>
+                <p class="parag_home">Conoce al nuevo mercado hard disccount de productos a punto de caducar que revolucionará el Ecuador,
+                    con increibles descuentos y seguridad, para tu cuerpo y tu economía.</p>  
+                <p class="redes_banner">Conoce más en nuestras redes sociales: </p>
+                <div class="social_icons">
+                    <ul class="social">
+                        <li><i class='bx bxl-facebook-circle social_ico'></i></li>
+                        <li><i class='bx bxl-instagram-alt social_ico'></i></li>
+                        <li><i class='bx bxl-twitter social_ico'></i></li>
+                        <li><i class='bx bxl-tiktok social_ico' ></i></li>
+                        <li><i class='bx bxl-whatsapp social_ico' ></i></li>
+                    </ul>
                 </div>
             </div>
-        </header>
-    </div>
+            <div class="image_banner">
+                <img src="/assets/images/img-removebg-preview.png.webp" alt="">
+            </div>
+        </section>
+    </main>
 
-    <!--Scripts Elements-->
+    <!---Scripts Elements--->
     <script src="/scripts/index.js"></script> 
 
 </body>
